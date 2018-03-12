@@ -8,7 +8,7 @@
   <div id="TextTwo" class="TextTwo"><p>Our mission is to encourage the growth of the local open source community, helping people and organizations learn how to benefit from open source innovation and effectively participate in the global open source ecosystem.</p></div>
   <div id="SymbolBiggest" class="SymbolBiggest"><img class="SymbolBigImage" src="~/assets/images/nordix-symbol-white.png"></div>
   <div id="TextThreeDot" class="TextThreeDot"></div>
-  <div id="TextThree" class="TextThree"><p>Nordix<br/><a href="mailto:info@ndif.se" target="_new">info@ndif.se</a><br/>+46 552 345 468</p></div>
+  <div id="TextThree" class="TextThree"><p>Nordix<br/><a href="mailto:info@nordix.io" target="_new">info@nordix.io</a></p></div>
 
     <div class="DotPadd">
       <div class="DotBound"><div class="DotWhite"></div></div>
