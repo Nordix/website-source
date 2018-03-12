@@ -3,9 +3,9 @@
 
   <div id="Underscore" class="Underscore">Nordix<div id="UnderscoreStripe" class="UnderscoreStripe"></div></div>
   <div id="TextOneDot" class="TextOneDot"></div>
-  <div id="TextOne" class="TextOne"><p>A digital community across nordic countries and all over the world. Made for sharing knowledge and coorporation.</p><p>From developers to developers.</p></div>
+  <div id="TextOne" class="TextOne"><p>An open source foundation for collaboration in the Nordic region.</p></div>
   <div id="TextTwoDot" class="TextTwoDot"></div>
-  <div id="TextTwo" class="TextTwo"><p>Our mission is to develop a common open source digital infrastructure addressing the needs of industry and ecosystem groups across the Nordics.</p></div>
+  <div id="TextTwo" class="TextTwo"><p>Our mission is to encourage the growth of the local open source community, helping people and organizations learn how to benefit from open source innovation and effectively participate in the global open source ecosystem.</p></div>
   <div id="SymbolBiggest" class="SymbolBiggest"><img class="SymbolBigImage" src="~/assets/images/nordix-symbol-white.png"></div>
   <div id="TextThreeDot" class="TextThreeDot"></div>
   <div id="TextThree" class="TextThree"><p>Nordix<br/><a href="mailto:info@ndif.se" target="_new">info@ndif.se</a><br/>+46 552 345 468</p></div>

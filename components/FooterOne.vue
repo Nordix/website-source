@@ -1,6 +1,6 @@
 <template>
   <div id="Footer" class="Footer">
-    All rights reserved
+    Copyright (C) 2018, Nordix Foundation | Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
   </div>
 </template>
 
