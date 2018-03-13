@@ -1012,7 +1012,7 @@ export default {
     } else {
       dotWidth = Math.floor(iW / 24)
       viewportDevice = 'desktop'
-      sectionHeight = dotWidth*32
+      sectionHeight = dotWidth*24
     }
       document.querySelector('body').classList.remove('viewport-device-desktop', 'viewport-device-tablet', 'viewport-device-mobile')
       document.querySelector('body').classList.add('viewport-device-' + viewportDevice)
@@ -1090,7 +1090,7 @@ export default {
       var TextOne = document.getElementById('TextOne');
       TextOne.style.top = (dotWidth*2.75)+'px'
       TextOne.style.left = (dotWidth*3)-3+'px'
-      TextOne.style.height = (dotWidth*4)-2+'px'
+      TextOne.style.height = (dotWidth*1)-2+'px'
       TextOne.style.width = (dotWidth*7.2)-0+'px'
       if (viewportDevice == 'mobile') {
         TextOne.style.left = (dotWidth*1.5)-3+'px'
@@ -1100,7 +1100,7 @@ export default {
       }
 
       var TextTwoDot = document.getElementById('TextTwoDot');
-      TextTwoDot.style.top = (dotWidth*8.86)+'px'
+      TextTwoDot.style.top = (dotWidth*5.86)+'px'
       TextTwoDot.style.left = (dotWidth*1.87)+'px'
       TextTwoDot.style.width = (dotWidth/4)-0+'px'
       TextTwoDot.style.height = (dotWidth/4)-0+'px'
@@ -1112,7 +1112,7 @@ export default {
       }
 
       var TextTwo = document.getElementById('TextTwo');
-      TextTwo.style.top = (dotWidth*8.75)+'px'
+      TextTwo.style.top = (dotWidth*5.75)+'px'
       TextTwo.style.left = (dotWidth*3)-3+'px'
       TextTwo.style.height = (dotWidth*3)-2+'px'
       TextTwo.style.width = (dotWidth*7.2)-0+'px'
@@ -1124,7 +1124,7 @@ export default {
       }
 
       var TextThreeDot = document.getElementById('TextThreeDot');
-      TextThreeDot.style.top = (dotWidth*22.88)+'px'
+      TextThreeDot.style.top = (dotWidth*19.88)+'px'
       TextThreeDot.style.left = (dotWidth*12.87)+'px'
       TextThreeDot.style.width = (dotWidth/4)-0+'px'
       TextThreeDot.style.height = (dotWidth/4)-0+'px'
@@ -1136,9 +1136,9 @@ export default {
       }
 
       var TextThree = document.getElementById('TextThree');
-      TextThree.style.top = (dotWidth*22.77)+'px'
+      TextThree.style.top = (dotWidth*19.77)+'px'
       TextThree.style.left = (dotWidth*14)-3+'px'
-      TextThree.style.height = (dotWidth*2)-2+'px'
+      TextThree.style.height = (dotWidth*1)-2+'px'
       TextThree.style.width = (dotWidth*4.5)-0+'px'
       if (viewportDevice == 'mobile') {
         TextThree.style.top = (dotWidth*13.15)+0+'px'
@@ -1147,7 +1147,7 @@ export default {
       }
 
       var SymbolBiggest = document.getElementById('SymbolBiggest');
-      SymbolBiggest.style.top = (dotWidth*14)-1+'px'
+      SymbolBiggest.style.top = (dotWidth*11)-1+'px'
       SymbolBiggest.style.left = (dotWidth*17)-1+'px'
       SymbolBiggest.style.height = (dotWidth*5)+2+'px'
       SymbolBiggest.style.width = (dotWidth*5)+2+'px'

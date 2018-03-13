@@ -50,8 +50,8 @@ export default {
         section.style.paddingBottom = (dotWidth*0.5)+'px'
       } else {
         section.style.padding = (dotWidth*1)+'px'
-        section.style.paddingTop = (dotWidth*0.5)+'px'
-        section.style.paddingBottom = (dotWidth*0.5)+'px'
+        section.style.paddingTop = (dotWidth*0.25)+'px'
+        section.style.paddingBottom = (dotWidth*0.25)+'px'
       }
 
     },
@@ -68,10 +68,10 @@ export default {
 .Footer {
   width: 100%;
   float: left;
-  font-size: 15px;
-  line-height: 19px;
-  font-size: 1.2vw;
-  line-height: 1.25;
+  font-size: 10px;
+  line-height: 10px;
+  //font-size: 1.2vw;
+  //line-height: 1.25;
   background: #4ddb84;
   //background: #aaa;
   color: #fff;
