@@ -37,6 +37,22 @@ div.splash-mission {
   font-size: 1.5vw;
 }
 
+.button {
+  background-color: #4ddb84;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
