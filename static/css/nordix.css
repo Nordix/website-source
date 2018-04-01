@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/images/dot_white.png);
+}
+
+div.splash-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 456px;
+  left: 62.32px;
+  top: 190px;
+  background: #fff;
+  font-size: 100px;
+}
+div.splash-logo {
+  position: absolute;
+  left: 1594px;
+  top: 454px;
+  background: #fff;
+}
+img.splash-logo {
+  width: 232px;
+  height: 232px;
+}
+div.splash-mission {
+  position: absolute;
+  top: 454px;
+  left: 225px;
+  width: 547.2px;
+  background: #fff;
+  font-size: 1.5vw;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background: #4ddb84;
+  font-size: 10px;
+}

@@ -1,0 +1,22 @@
+baseURL = "https://nordix.github.io/"
+languageCode = "en-us"
+title = "Nordix Foundation"
+disableKinds = ["sitemap"]
+uglyurls = true
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = ""
+[[menu.main]]
+    name = "Twitter"
+    url = ""
+
+[outputs]
+  home = [ "HTML", "CSS" ]
+
+[taxonomies]
+  tag = ""
+  category = ""
