@@ -10,6 +10,11 @@
     <div class="article-content">
       {{ .Content }}
     </div>
+
+    {{ if .Params.sign }}
+      <div class="download-button"><a class="button" href="{{ .Site.BaseURL}}docs/{{ .Params.sign }}">Sign this Agreement</a></div>
+    {{ end }}
+
   </article>
 
 </main>
