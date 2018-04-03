@@ -1,18 +1,17 @@
-baseURL = "https://nordix.github.io/"
+baseURL = "http://www.nordix.io/"
 languageCode = "en-us"
 title = "Nordix Foundation"
 disableKinds = ["sitemap"]
-uglyurls = true
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/"
 [[menu.main]]
-    name = "GitHub"
-    url = ""
+    name = "Join"
+    url = "/join/"
 [[menu.main]]
-    name = "Twitter"
-    url = ""
+    name = "News"
+    url = "/news/"
 
 [outputs]
   home = [ "HTML", "CSS" ]
