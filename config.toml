@@ -1,7 +1,7 @@
 baseURL = "http://www.nordix.io/"
 languageCode = "en-us"
 title = "Nordix Foundation"
-disableKinds = ["sitemap"]
+disableKinds = [ "RSS", "sitemap" ]
 
 [[menu.main]]
     name = "About"
