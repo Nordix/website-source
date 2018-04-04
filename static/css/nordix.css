@@ -208,9 +208,10 @@ footer {
 
   div.splash-logo {
     position: relative;
-    margin-top: 10vw;
+    margin: 10vw auto;
     top: 0;
-    left: 60px;
+    right: 0;
+    width: 20vw;
   }
 
   img.splash-logo {
