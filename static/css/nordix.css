@@ -70,12 +70,11 @@ header {
 
 /* Splash page styles */
 div.splash-title {
-  position: absolute;
-  margin: 0;
+  position: relative;
+  margin: 100px 0 0;
   padding: 0;
   width: 456px;
   left: 62.32px;
-  top: 190px;
   background: #fff;
   font-size: 100px;
 }
@@ -90,8 +89,8 @@ img.splash-logo {
   height: 232px;
 }
 div.splash-mission {
-  position: absolute;
-  top: 454px;
+  position: relative;
+  margin-top: 130px;
   left: 225px;
   width: 547.2px;
   background: #fff;
@@ -186,29 +185,29 @@ footer {
 }
 
 /* Responsive styles for mobile (small screen) */
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   div.splash-title {
     position: relative;
-    margin-top: 10vw;
+    margin-top: 12vw;
     padding-bottom: 5vw;
-    top: 0;
     left: 60px;
-    background: #fff;
-    font-size: 8vw;
+    font-size: 12.5vw;
   }
 
   div.splash-mission {
     position: relative;
-    top: 0;
-    left: 60px;
-    width: 60%;
-    background: #fff;
-    font-size: 2.2vw;
+    margin-top: 12vw;
+    left: 28vw;
+    width: 70%;
+    font-size: 3.2vw;
   }
+}
 
+@media (max-width: 1200px) {
   div.splash-logo {
     position: relative;
-    margin: 10vw auto;
+    margin-top: 10vw;
+    left: 28vw;
     top: 0;
     right: 0;
     width: 20vw;
