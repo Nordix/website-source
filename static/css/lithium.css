@@ -1,11 +1,8 @@
-.wrapper {
+.header {
   overflow: hidden;
   position: relative;
-}
-
-.header {
+  width: 100%;
   padding: 20px 0;
-  position: relative;
   background: #000;
   border-bottom: 1px solid #eaeaea;
 }
