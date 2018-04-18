@@ -42,12 +42,12 @@ $ hugo
 ```
 
 Then copy the static generated files for the website from the
-`public/` directory into the `nordix.github.io` repo. For example, if
-you've cloned both `website-source` and `nordix.github.io` into the
-same directory on your laptop, run:
+`public/` directory into the `nordix.github.io` repo. If you've cloned
+both `website-source` and `nordix.github.io` into the same directory
+on your laptop, you can simply run:
 
 ```
-$ cp -r public/* ../nordix.github.io/.
+$ ./deploy.sh
 ```
 
 Commit your changes to both `website-source` and `nordix.github.io`, and
