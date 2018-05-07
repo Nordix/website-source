@@ -3,10 +3,9 @@
 
 <main class="content" role="main">
 
-  {{ range (where .Data.Pages "Section" "news").ByDate.Reverse }}
   <article class="article">
 
-    <h1 class="article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+    <h1 class="article-title">{{ .Title }}</h1>
     <span class="article-date">
       {{ if eq .Params.language "sv" }}
       {{ .Date.Day }} {{ index $.Site.Data.months_sv (printf "%d" .Date.Month) }} {{ .Date.Year }}
@@ -14,23 +13,12 @@
       {{ .Date.Format "2 January 2006" }}
       {{ end }}
     </span>
-</span>
 
     <div class="article-content">
-      {{ .Summary }}
-
-      {{ if .Truncated }}
-      {{ if eq .Params.language "sv" }}
-      (<a href="{{ .RelPermalink }}">Läs mer...</a>)
-      {{ else }}
-      (<a href="{{ .RelPermalink }}">Read More...</a>)
-      {{ end }}
-      {{ end }}
+      {{ .Content }}
     </div>
 
-
   </article>
-  {{ end }}
 
 </main>
 

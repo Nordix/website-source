@@ -108,11 +108,20 @@ div.splash-mission {
   background: #fff;
 }
 
+.article {
+  margin-bottom: 30px;
+}
+
 .article-title {
   font-size: 34px;
   color: #222;
   margin: 0;
   line-height: 1.3;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: #222;
 }
 
 .article-date {
