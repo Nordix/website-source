@@ -1,7 +1,6 @@
 +++
 date = "2018-05-29T09:00:00+02:00"
-title = "Announcing the Nordix Foundation Technical Committee formation
-activity"
+title = "Announcing the Nordix Foundation Technical Committee formation activity"
 +++
 
 Stockholm – 29th of May, 2018 - The Nordix Foundation is recruiting
