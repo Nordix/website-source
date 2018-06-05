@@ -6,9 +6,8 @@ title = "Announcing the Nordix Foundation Technical Committee formation activity
 Stockholm – 29th of May, 2018 - The Nordix Foundation is recruiting
 candidates to form the inaugural Technical Committee who will be tasked
 with establishing community governance for the foundation during 2018.
-The nomination period will remain open until the 8th of June, though the
-Board of Directors may begin appointing the first few Technical
-Committee members as soon as the 4th.
+The nomination period will remain open until the 18th of June where we 
+will meet in Stockholm for the first time face to face.
 
 The Nordix Foundation aims to cultivate an environment for open source
 technology incubation, to enable and promote the development and use of
