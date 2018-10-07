@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  {{ range (where .Data.Pages "Section" "board").ByParam "name" }}
+  <article class="article">
+
+    <h1 class="article-title">{{ .Params.Name }}</h1>
+    <div class="article-content">
+      <p><b>Affiliation:</b> {{ .Params.Affiliation }}<br>
+      <b>Type of Director:</b> {{ .Params.Type }}</p>
+
+      {{ .Content }}
+    </div>
+
+  </article>
+  {{ end }}
+
+</main>
+
+{{ partial "footer.html" . }}
