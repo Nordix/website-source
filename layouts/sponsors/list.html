@@ -1,0 +1,48 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  <article class="article">
+
+    <h1 class="article-title">Members and Sponsors</h1>
+
+    <p>The Nordix Foundation would not exist without the support of the Platinum,
+    Silver, and Academic/Non-Profit Members listed below. Learn more about
+    <a href="/join/"> how your organization can join</a>.</p>
+
+    <hr>
+    <h2>Platinum Members</h2>
+    <div class="article-content">
+      {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
+        {{ if eq .Params.Type "platinum" }}
+        <img class="sponsor-logo" src="images/sponsors/{{ .Params.Image }}" alt="">
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <hr>
+    <h2>Silver Members</h2>
+    <div class="article-content">
+      {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
+        {{ if eq .Params.Type "silver" }}
+        <img class="sponsor-logo" src="images/sponsors/{{ .Params.Image }}" alt="">
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <hr>
+    <h2>Academic/Non-Profit Members</h2>
+    <div class="article-content">
+      {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
+        {{ if eq .Params.Type "academic" }}
+        <img class="sponsor-logo" src="images/sponsors/{{ .Params.Image }}" alt="">
+        {{ end }}
+      {{ end }}
+    </div>
+
+  </article>
+
+</main>
+
+{{ partial "footer.html" . }}

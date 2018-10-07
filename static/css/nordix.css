@@ -166,6 +166,10 @@ div.splash-mission {
   background: #e5e5e5;
 }
 
+img.sponsor-logo {
+  margin: 10px 25px;
+}
+
 .button {
   background-color: #4ddb84;
   border: none;
