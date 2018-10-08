@@ -164,10 +164,16 @@ div.splash-mission {
   overflow: hidden;
   border: none;
   background: #e5e5e5;
+  clear: both;
 }
 
 img.sponsor-logo {
   margin: 10px 25px;
+}
+
+img.board-photo {
+  margin: 25px 15px 5px 0px;
+  float: left;
 }
 
 .button {

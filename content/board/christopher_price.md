@@ -1,9 +1,10 @@
 +++
 name = "Christopher Price"
 affiliation = "Ericsson Software Technology"
+image = "christopherprice.jpg"
 type = "Platinum Representative"
 +++
 
-I am focused on, and passionate about, open source technologies for next generation networks.  Primarily a developer my career has been focused on building and deploying networking technologies for global and carrier networks, more recently my attention has turned to open source community and technology advancement. 
+I am a strong believer in collaborative development and open technology ecosystem enablement I am fully invested in exposing technology through open source for global adoption and advancement.
 
-A strong believer in collaborative development and open technology ecosystem enablement I am fully invested in exposing technology through open source for global adoption and advancement.
+Participating and collaborating in and across a variety of open source groups and foundations, driving cooperative problem solving amongst groups.  I additionally serve as board director of the Linux Foundation and the OpenStack Foundation.
