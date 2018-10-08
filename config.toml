@@ -6,12 +6,27 @@ disableKinds = [ "RSS", "sitemap" ]
 [[menu.main]]
     name = "About"
     url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Sponsors"
+    url = "/sponsors/"
+    weight = 2
+[[menu.main]]
+    name = "Board"
+    url = "/board/"
+    weight = 3
 [[menu.main]]
     name = "Join"
     url = "/join/"
+    weight = 4
+[[menu.main]]
+    name = "Wiki"
+    url = "https://wiki.nordix.org/"
+    weight = 5
 [[menu.main]]
     name = "News"
     url = "/news/"
+    weight = 6
 
 [outputs]
   home = [ "HTML", "CSS" ]
