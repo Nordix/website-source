@@ -14,31 +14,43 @@
     <hr>
     <h2>Platinum Members</h2>
     <div class="article-content">
-      {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
+      <div class="sponsor-list">
+        {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
         {{ if eq .Params.Type "platinum" }}
+        {{ with .Params.website }}<a href="{{ . }}">{{ end }}
         <img class="sponsor-logo" src="images/sponsors/{{ .Params.Image }}" alt="">
+        {{ with .Params.website }}</a>{{ end }}
         {{ end }}
-      {{ end }}
+        {{ end }}
+      </div>
     </div>
 
     <hr>
     <h2>Silver Members</h2>
     <div class="article-content">
-      {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
+      <div class="sponsor-list">
+        {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
         {{ if eq .Params.Type "silver" }}
+        {{ with .Params.website }}<a href="{{ . }}">{{ end }}
         <img class="sponsor-logo" src="images/sponsors/{{ .Params.Image }}" alt="">
+        {{ with .Params.website }}</a>{{ end }}
         {{ end }}
-      {{ end }}
+        {{ end }}
+      </div>
     </div>
 
     <hr>
     <h2>Academic/Non-Profit Members</h2>
     <div class="article-content">
-      {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
+      <div class="sponsor-list">
+        {{ range (where .Data.Pages "Section" "sponsors").ByParam "name" }}
         {{ if eq .Params.Type "academic" }}
+        {{ with .Params.website }}<a href="{{ . }}">{{ end }}
         <img class="sponsor-logo" src="images/sponsors/{{ .Params.Image }}" alt="">
+        {{ with .Params.website }}</a>{{ end }}
         {{ end }}
-      {{ end }}
+        {{ end }}
+      </div>
     </div>
 
   </article>

@@ -167,6 +167,15 @@ div.splash-mission {
   clear: both;
 }
 
+.sponsor-list a,
+.sponsor-list a:hover,
+.sponsor-list a:focus {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
 img.sponsor-logo {
   margin: 10px 25px;
 }
