@@ -1,4 +1,4 @@
-baseURL = "http://www.nordix.org/"
+baseURL = "https://www.nordix.org/"
 languageCode = "en-us"
 title = "Nordix Foundation"
 disableKinds = [ "RSS", "sitemap" ]
