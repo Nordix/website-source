@@ -34,21 +34,5 @@ Web Server is available at http://localhost:1313/
 
 ## Deployment
 
-When you're satisfied with the changes, generate the final static
-website with the command:
-
-```
-$ hugo
-```
-
-Then copy the static generated files for the website from the
-`public/` directory into the `nordix.github.io` repo. If you've cloned
-both `website-source` and `nordix.github.io` into the same directory
-on your laptop, you can simply run:
-
-```
-$ ./deploy.sh
-```
-
-Commit your changes to both `website-source` and `nordix.github.io`, and
+When you're satisfied with the changes, commit them to git, and
 they'll be live on the site within a minute or two.
