@@ -185,6 +185,11 @@ img.board-photo {
   float: left;
 }
 
+img.leader-photo {
+  margin: 25px 15px 5px 0px;
+  float: left;
+}
+
 .button {
   background-color: #4ddb84;
   border: none;

@@ -1,0 +1,43 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  <h1 class="article-title">Board of Directors</h1>
+  <article class="article">
+    {{ range (where (where .Data.Pages "Section" "leader") ".Params.group" "eq" "board").ByParam "lastname" }}
+
+    <hr>
+    {{ with .Params.image }}
+    <img class="leader-photo" src="images/leader/{{ . }}" alt="">
+    {{ end }}
+    <h2>{{ .Params.FirstName }} {{ .Params.LastName }}</h2>
+    <div class="article-content">
+      <p><b>Affiliation:</b> {{ .Params.Affiliation }}<br>
+      <b>Type of Director:</b> {{ .Params.Type }}</p>
+
+      {{ .Content }}
+    </div>
+    {{ end }}
+  </article>
+
+  <h1 class="article-title">Foundation</h1>
+  <article class="article">
+    {{ range (where (where .Data.Pages "Section" "leader") ".Params.group" "eq" "org").ByParam "lastname" }}
+
+    <hr>
+    {{ with .Params.image }}
+    <img class="leader-photo" src="images/leader/{{ . }}" alt="">
+    {{ end }}
+    <h2>{{ .Params.FirstName }} {{ .Params.LastName }}</h2>
+    <div class="article-content">
+      <p><b>Role:</b> {{ .Params.Role }}<p>
+
+      {{ .Content }}
+    </div>
+    {{ end }}
+  </article>
+
+</main>
+
+{{ partial "footer.html" . }}
