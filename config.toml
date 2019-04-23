@@ -12,8 +12,8 @@ disableKinds = [ "RSS", "sitemap" ]
     url = "/sponsors/"
     weight = 2
 [[menu.main]]
-    name = "Board"
-    url = "/board/"
+    name = "Leadership"
+    url = "/leaders/"
     weight = 3
 [[menu.main]]
     name = "Join"
