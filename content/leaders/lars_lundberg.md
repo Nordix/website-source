@@ -1,5 +1,5 @@
 +++
-group = "group"
+group = "board"
 firstname = "Lars"
 lastname = "Lundberg"
 affiliation = "Blekinge Institute of Technology"
