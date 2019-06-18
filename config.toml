@@ -1,7 +1,7 @@
 baseURL = "https://www.nordix.org/"
 languageCode = "en-us"
 title = "Nordix Foundation"
-disableKinds = [ "RSS", "sitemap" ]
+disableKinds = [ "RSS", "sitemap", "taxonomy", "taxonomyTerm" ]
 
 [[menu.main]]
     name = "About"
@@ -30,7 +30,3 @@ disableKinds = [ "RSS", "sitemap" ]
 
 [outputs]
   home = [ "HTML", "CSS" ]
-
-[taxonomies]
-  tag = ""
-  category = ""
