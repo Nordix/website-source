@@ -24,9 +24,13 @@ disableKinds = [ "RSS", "sitemap", "taxonomy", "taxonomyTerm" ]
     url = "https://wiki.nordix.org/"
     weight = 5
 [[menu.main]]
+    name = "Nordix Open Labs"
+    url = "https://labs.nordix.org/"
+    weight = 6
+[[menu.main]]
     name = "News"
     url = "/news/"
-    weight = 6
+    weight = 7
 
 [outputs]
   home = [ "HTML", "CSS" ]
