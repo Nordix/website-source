@@ -1,0 +1,20 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  {{ range (where .Data.Pages "Section" "coc").ByParam "order" }}
+  <article class="article">
+
+    <h1 class="article-title">{{ .Title }}</h1>
+
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+
+  </article>
+  {{ end }}
+
+</main>
+
+{{ partial "footer.html" . }}
