@@ -33,7 +33,7 @@ disableKinds = [ "RSS", "sitemap", "taxonomy", "taxonomyTerm" ]
     weight = 7
 [[menu.main]]
     name = "Code of Conduct"
-    url = "/CoC/"
+    url = "/coc/"
     weight = 8
 
 [outputs]
