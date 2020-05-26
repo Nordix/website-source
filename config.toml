@@ -32,9 +32,13 @@ disableKinds = [ "RSS", "sitemap", "taxonomy", "taxonomyTerm" ]
     url = "/news/"
     weight = 7
 [[menu.main]]
+    name = "Privacy Statement"
+    url = "/privacy/"
+    weight = 8
+[[menu.main]]
     name = "Code of Conduct"
     url = "/coc/"
-    weight = 8
+    weight = 9
 
 [outputs]
   home = [ "HTML", "CSS" ]
