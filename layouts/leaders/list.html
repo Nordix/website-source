@@ -21,23 +21,6 @@
     {{ end }}
   </article>
 
-  <h1 class="article-title">Foundation</h1>
-  <article class="article">
-    {{ range (where (where .Data.Pages "Section" "leaders") ".Params.group" "eq" "org").ByParam "lastname" }}
-
-    <hr>
-    {{ with .Params.image }}
-    <img class="leader-photo" src="images/leaders/{{ . }}" alt="">
-    {{ end }}
-    <h2>{{ .Params.FirstName }} {{ .Params.LastName }}</h2>
-    <div class="article-content">
-      <p><b>Role:</b> {{ .Params.Role }}<p>
-
-      {{ .Content }}
-    </div>
-    {{ end }}
-  </article>
-
 </main>
 
 {{ partial "footer.html" . }}

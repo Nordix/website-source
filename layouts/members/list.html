@@ -7,8 +7,8 @@
 
     <h1 class="article-title">Members and Sponsors</h1>
 
-    <p>The Nordix Foundation would not exist without the support of the Platinum,
-    Silver, and Academic/Non-Profit Members listed below. Learn more about
+    <p>The Nordix Association would not exist without the support of the Platinum,
+    Silver, and Affiliate Members listed below. Learn more about
     <a href="/join/"> how your organization can join</a>.</p>
 
     <hr>
@@ -40,11 +40,11 @@
     </div>
 
     <hr>
-    <h2>Academic/Non-Profit</h2>
+    <h2>Affiliate</h2>
     <div class="article-content">
       <div class="sponsor-list">
         {{ range (where .Data.Pages "Section" "members").ByParam "name" }}
-        {{ if eq .Params.Type "academic" }}
+        {{ if eq .Params.Type "affiliate" }}
         {{ with .Params.website }}<a href="{{ . }}">{{ end }}
         <img class="member-logo" src="images/members/{{ .Params.Image }}" alt="">
         {{ with .Params.website }}</a>{{ end }}
