@@ -18,9 +18,30 @@ download = "bylaws.pdf"
 * d) aid, support, and assist by grants, contributions, or otherwise, other persons or organizations, provided that such activities are consistent with the foregoing purposes.
 
 The Association can perform all activities that are directly or indirectly related to its purpose. 
+
+The activities that the association may undertake to achieve its purpose include the following:
+
+* Represent the positions of its members to international institutions in Europe and worldwide through formal and informal structures as well as through written documents;
+* Participation in other networks and platforms of the European Union;
+* Establishment of an annual work program and production of an annual activity report;
+* Publication of newsletters;
+* Scientific and technical publications;
+* Strategic cooperation with research and educational establishments;
+* Take actions of dissemination and visibility of members' activities;
+* Promotion of skills within the framework of open source;
+* Implement initiatives that are likely to further the achievement of its purpose, in particular by fostering collaborative development to support the evolution of open source projects;
+* Host projects, including managing the participation in such projects and providing worldwide royalty-free availability of the outputs produced by such projects;
+* Manage the intellectual property associated with its projects and the collaborative development outputs of its members;
+* Provide computing, network, and storage resources to open source projects that have a bona fide requirement for such resources;
+* Organize conferences and events around the world, and manage sponsorship of these conferences and events;
+* Buy, lease or exchange, rent or otherwise acquire property and maintain and equip it for use;
+* Cooperate with other charities, voluntary organizations and statutory authorities and exchange information or advise them;
+* To employ and remunerate the personnel necessary for the accomplishment of the work of the Association.
+* Alone or with other organizations seek to influence public opinion, make representations and seek to influence in particular government bodies and institutions in order to promote reforms, development and implementation of its purpose.
+
 In pursuing the activities of the Association, the Members seek no direct patrimonial benefits whatsoever, nor assign anything to the Association with the purpose of procuring a direct patrimonial benefit to the Members. 
 
-1.3. The registered office of the Association is located at [•]. By simple decision of the Board of Directors, the registered office of the Association can be transferred to any location in Belgium.  
+1.3. The registered office of the Association is established in the Brussels region and can be transferred to any other location in Belgium by simple decision of the Board of Directors.
 
 ## 2. Membership
 
@@ -159,7 +180,7 @@ Unless provision to the contrary, two directors acting jointly can validly repre
 
 7.3. A resolution to liquidate, dissolve or otherwise wind-up the Association requires an affirmative resolution at a General Assembly in accordance with the majority and quorum of Section 8.1. In case of a voluntary dissolution, the General Assembly will appoint one or more liquidators whose powers it will determine. If no liquidators are appointed, the Members of the Board of Directors will be considered to have been appointed as a collegiate body of liquidators with the broadest powers in view of the dissolution and liquidation of the Association. 
 
-7.4. In case of a resolution to liquidate the Association according to the above, the assets of the Association shall be distributed, by the Board of Directors, to a nonprofit fund, foundation or organization.
+7.4. In case of a resolution to liquidate the Association according to the above, the assets of the Association shall be distributed, by the Board of Directors, to a nonprofit fund, foundation or organization with a similar purpose.
 
 7.5. Directors and committee members shall not be entitled to any compensation except for reimbursement of verified expenses as determined by the Board of Directors. Nothing herein shall be considered to preclude any Director, officer, or committee member from serving the Association in any other capacity, including as an employee, consultant or otherwise, and receiving such salaries, compensation, or reimbursement as shall be fixed or allowed from time to time by the Board of Directors.
 
